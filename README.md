@@ -9,4 +9,6 @@ Step 3:Locate blender.exe: Find the path to blender.exe in your Blender installa
 Step 4: Verify ZLUDA is Working\
   Open Blender and go to Edit > Preferences > System.\
   Under the Cycles Render Devices section, check if your AMD GPU is listed and select it.\
-  Render a scene to confirm that Blender is using your AMD GPU via ZLUDA.
+  Render a scene to confirm that Blender is using your AMD GPU via ZLUDA.\
+
+Area lights do not function correctly when set to exactly 180 degrees use 179.9 degrees instead.
